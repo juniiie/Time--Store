@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About || Comfy Store</title>
+    <!-- normalize  -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar page">
+      <div class="nav-center">
+        <!-- links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link"> home </a>
+            </li>
+            <li>
+              <a href="products.html" class="nav-link"> products </a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link"> about </a>
+            </li>
+          </ul>
+        </div>
+        <!-- logo -->
+        <img src="./assets/logo-black.svg" class="nav-logo" alt="logo" />
+        <!-- cart icon -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar-->
+    <!-- page hero -->
+    <section class="page-hero">
+      <div class="section-center">
+        <h3 class="page-hero-title">Home / About</h3>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="section section-center">
+      <div class="title">
+        <span></span>
+        <h2>our history</h2>
+        <span></span>
+      </div>
+      <p class="about-text">
+
+        David Stewart Dawson started the Stewart Dawsons company as a manufacturing jewellery company in 1871 at the thriving port of Liverpool, England. The company soon realized that manufacturing jewellery was only part of the trade and that to increase the business they had to deal directly with the public, which prompted the opening of the first store in England in 1876.
+
+Based on the success in England, the brand expanded into the Australian market in the late 1800's, with two stores in New Zealand, one in Auckland which opened in 1885 and one in Dunedin which opened in 1886. Following on the success of these stores, Stewart Dawsons soon opened in Wellington and Christchurch in key locations; of particular note is the corner of Willis Street and Lambton Quay which most Wellingtonians know as Stewart Dawsons Corner.
+
+The brand is now privately owned by the James Pascoes Group and there are 15 Stewart Dawsons stores throughout New Zealand. The brand is recognised for its quality and range of jewellery, and the large offering of prestige brand watches including major brands such as Michael Kors, Gucci, Armani, Citizen, Seiko, and Tissot to name a few.
+      </p>
+    </section>
+    <!-- sidebar -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <!-- close -->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- links -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>
+              home
+            </a>
+          </li>
+          <li>
+            <a href="products.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>
+              products
+            </a>
+          </li>
+          <li>
+            <a href="about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>
+              about
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+    <!-- end of sidebar -->
+    <!-- cart -->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">your bag</h3>
+        </header>
+        <!-- cart items -->
+        <div class="cart-items">
+          <!-- single cart item -->
+          <article class="cart-item">
+            <img
+              src="https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg"
+              class="cart-item-img"
+              alt="product"
+            />
+            <div class="cart-item-info">
+              <h5 class="cart-item-name">high-back bench</h5>
+              <span class="cart-item-price">$19.99</span>
+              <button class="cart-item-remove-btn">remove</button>
+            </div>
+
+            <div>
+              <button class="cart-item-increase-btn">
+                <i class="fas fa-chevron-up"></i>
+              </button>
+              <span class="cart-item-amount">1</span>
+              <button class="cart-item-decrease-btn">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </article>
+          <!-- end of single cart item -->
+          <!-- single cart item -->
+          <article class="cart-item">
+            <img
+              src="https://dl.airtable.com/.attachments/da5e17fd71f50578d525dd5f596e407e/d5e88ac8/product-2.jpg"
+              class="cart-item-img"
+              alt="product"
+            />
+            <div class="cart-item-info">
+              <h5 class="cart-item-name">product</h5>
+              <span class="cart-item-price">$19.99</span>
+              <button class="cart-item-remove-btn">remove</button>
+            </div>
+
+            <div>
+              <button class="cart-item-increase-btn">
+                <i class="fas fa-chevron-up"></i>
+              </button>
+              <span class="cart-item-amount">1</span>
+              <button class="cart-item-decrease-btn">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </article>
+          <!-- end of single cart item -->
+        </div>
+        <!-- footer -->
+        <footer>
+          <h3 class="cart-total text-slanted">total : $12.99</h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+    <!-- app.js -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
